@@ -83,7 +83,7 @@ public class GetNews {
                 Log.d("IMG NULL!!", "NULL");
                 continue;
             }*/
-            if (news.getUrl().equals("")) {
+            if (!news.getUrl().startsWith("htt")) {
                 Log.d("URL NULL!!", "NULL");
                 continue;
             }
